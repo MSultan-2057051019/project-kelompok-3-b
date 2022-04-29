@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#462445"
+    tools:context=".ThirdFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Tiga Dimensi"
+        android:fontFamily="@font/exot350b"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top|center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_kubus"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#3a5fae" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Kubus"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_balok"
+                    android:layout_width="540px"
+                    android:layout_height="360px"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#ffa755"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Balok"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_prisma"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#37b494" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Prisma"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_limas"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#ff6161"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Limas"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/tombol_kerucut"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#3b7fa4"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Kerucut" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_tabung"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#3a5fae"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Tabung"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_bola"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#15A82D" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Bola"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

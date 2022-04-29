@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#462445"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Dua Dimensi"
+        android:fontFamily="@font/exot350b"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top|center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_p"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#ff6161" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Persegi"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_pp"
+                    android:layout_width="540px"
+                    android:layout_height="360px"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#3a5fae"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Persegi Panjang"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_s"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#ffa755" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Segitiga"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_tr"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#37b494"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Trapesium"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/tombol_bk"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#3b7fa4"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Belah Ketupat" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_l"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#ff6161"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Layang Layang"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_jg"
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#ffa755" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Jajar Genjang"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="137dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/tombol_o"
+                    android:layout_width="540px"
+                    android:layout_height="360px"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#673453"
+                    android:background="@drawable/shape" />
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="137dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Lingkaran"/>
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
