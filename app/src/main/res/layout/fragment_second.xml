@@ -7,6 +7,7 @@
     android:background="#462445"
     tools:context=".SecondFragment">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
