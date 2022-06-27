@@ -16,14 +16,17 @@
         <entry key="..\:/MidTerm/app/src/main/res/drawable/circlelogo.xml" value="0.289" />
         <entry key="..\:/MidTerm/app/src/main/res/drawable/duadimensi.xml" value="0.301" />
         <entry key="..\:/MidTerm/app/src/main/res/drawable/home.xml" value="0.2105" />
+        <entry key="..\:/MidTerm/app/src/main/res/drawable/shape.xml" value="0.3535" />
         <entry key="..\:/MidTerm/app/src/main/res/drawable/shape2.xml" value="0.289" />
         <entry key="..\:/MidTerm/app/src/main/res/drawable/shape3.xml" value="0.289" />
         <entry key="..\:/MidTerm/app/src/main/res/drawable/three.xml" value="0.22" />
         <entry key="..\:/MidTerm/app/src/main/res/drawable/two.xml" value="0.22" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/MidTerm/app/src/main/res/layout/calculator.xml" value="0.36666666666666664" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_balok.xml" value="0.36666666666666664" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_bk.xml" value="0.36666666666666664" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_bola.xml" value="0.36666666666666664" />
+        <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_calc.xml" value="0.33" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_jg.xml" value="0.36666666666666664" />
         <entry key="..\:/MidTerm/app/src/main/res/layout/fragment_kerucut.xml" value="0.36666666666666664" />

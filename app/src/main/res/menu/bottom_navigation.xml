@@ -16,4 +16,10 @@
         android:icon="@drawable/three"
         android:title="@string/area"/>
 
+    <item
+        android:id="@+id/fourth"
+        android:icon="@drawable/calculate"
+        android:title="CALC"/>
+
+
 </menu>

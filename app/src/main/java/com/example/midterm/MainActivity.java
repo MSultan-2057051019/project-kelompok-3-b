@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.third:
                             selectedFragment = new ThirdFragment();
                             break;
+                        case R.id.fourth:
+                            selectedFragment = new FourthFragment();
+                            break;
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
